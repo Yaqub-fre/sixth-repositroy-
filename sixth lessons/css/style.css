@@ -1,0 +1,573 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+#header {
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 20px 4rem;
+  position: fixed;
+  z-index: 678;
+  width: 100%;
+}
+
+#header .all {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#header .all .left {
+  width: 15%;
+}
+
+#header .all .left img {
+  width: 100%;
+}
+
+#header .all .center {
+  text-align: center;
+  width: 75%;
+}
+
+#header .all .center a {
+  font-size: 13px;
+  text-decoration: none;
+  margin: 0 12px;
+  color: #ffffff;
+}
+
+#header .all .right {
+  text-align: right;
+  width: 10%;
+}
+
+#header .all .right i {
+  color: #fff;
+  font-size: 26px;
+  cursor: pointer;
+}
+
+#first {
+  background-image: url(https://cdn1.matadornetwork.com/blogs/1/2019/11/Skyscrapers-in-Baku-Azerbaijan-560x420.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 12rem 0;
+}
+
+#first .first-text {
+  text-align: center;
+}
+
+#first .first-text h3 {
+  color: #ffffff;
+  font-size: 50px;
+  font-weight: 750;
+}
+
+#first .first-text h4 {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 100;
+  margin-top: 20px;
+  letter-spacing: 1mm;
+}
+
+#first .first-text select {
+  display: inline-block;
+  width: 25%;
+  padding: 12px 4px;
+  border-radius: 30px;
+  margin-top: 78px;
+  outline: none;
+  cursor: pointer;
+}
+
+#first .all {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 75px;
+}
+
+#first .all .box {
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 10%;
+  text-align: center;
+  margin: 034px 12px;
+  padding: 20px;
+}
+
+#first .all .box img {
+  width: 40%;
+}
+
+#first .all .box .bottom {
+  margin-top: 12px;
+  color: #ffffff;
+  font-size: 18px;
+}
+
+#second {
+  padding: 5rem 4rem;
+}
+
+#second .second-text {
+  text-align: center;
+  margin-bottom: 56px;
+}
+
+#second .second-text p {
+  color: #9a9a9a;
+  font-size: 14px;
+}
+
+#second .second-text h1 {
+  font-size: 36px;
+  color: #555555;
+}
+
+#second .second-allbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#second .second-allbox .box {
+  position: relative;
+  margin-bottom: 20px;
+  width: 30%;
+}
+
+#second .second-allbox .box:hover .overlay {
+  opacity: 1;
+}
+
+#second .second-allbox .box img {
+  width: 100%;
+}
+
+#second .second-allbox .box .box-bottom {
+  position: absolute;
+  bottom: 35px;
+  left: 20px;
+}
+
+#second .second-allbox .box h4 {
+  color: #ffffff;
+  font-size: 18px;
+}
+
+#second .second-allbox .box p {
+  font-size: 12px;
+  color: #9a9a9a;
+  letter-spacing: 0.5mm;
+}
+
+#second .second-allbox .box .box-space {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+#second .second-allbox .box .box-space img {
+  width: 20%;
+}
+
+#second .second-allbox .box .overlay {
+  background-color: #14b9d5;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  z-index: 111;
+  -webkit-transition: .9s;
+  transition: .9s;
+}
+
+#second .second-allbox .box .overlay .overlay-text {
+  text-align: center;
+}
+
+#second .second-allbox .box .overlay .overlay-text h2 {
+  font-size: 22px;
+  color: #ffffff;
+  margin-top: 56px;
+}
+
+#second .second-allbox .box .overlay .overlay-text a {
+  display: inline-block;
+  text-decoration: none;
+  color: #ffffff;
+  margin-top: 12px;
+  font-size: 14px;
+}
+
+#second .second-allbox .box img {
+  width: 100%;
+  height: 100%;
+}
+
+#third {
+  background-image: url(https://azertag.az/files/galleryphoto/2018/3/1000x669/15424515752822361134_1000x669.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 6rem;
+}
+
+#third .thirdtext {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#third .thirdtext h2 {
+  color: #ffffff;
+  font-size: 45px;
+}
+
+#third .thirdtext a {
+  display: inline-block;
+  text-align: right;
+  color: #f76570;
+  background-color: #ffffff;
+  padding: 14px 45px;
+  border-radius: 30px;
+  font-size: 11px;
+  text-decoration: none;
+  letter-spacing: 1mm;
+}
+
+#fourth {
+  padding: 5rem 4rem;
+}
+
+#fourth .fourthtext {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#fourth .fourthtext .left {
+  width: 35%;
+}
+
+#fourth .fourthtext .left h3 {
+  color: #9a9a9a;
+  font-size: 14px;
+  font-weight: 200;
+  letter-spacing: 0.43mm;
+  margin-bottom: 12px;
+}
+
+#fourth .fourthtext .left h2 {
+  font-size: 37px;
+  color: #555555;
+}
+
+#fourth .fourthtext .left p {
+  color: #9a9a9a;
+  font-size: 14px;
+  padding: 23px 88px 7px 0px;
+}
+
+#fourth .fourthtext .left del {
+  font-size: 30px;
+  color: #9a9a9a;
+}
+
+#fourth .fourthtext .left span {
+  display: inline-block;
+  font-size: 30px;
+  margin-top: 24px;
+}
+
+#fourth .fourthtext .left a {
+  padding: 15px 35px;
+  background-color: #1bbc9b;
+  border-radius: 30px;
+  color: #ffffff;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 56px;
+  font-size: 14px;
+  letter-spacing: 0.7mm;
+}
+
+#fourth .fourthtext .right {
+  width: 65%;
+  position: relative;
+}
+
+#fourth .fourthtext .right img {
+  width: 100%;
+  height: 78%;
+}
+
+#fourth .fourthtext .alt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  bottom: 15%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+#fourth .fourthtext .alt .altzero {
+  background-color: #14b9d5;
+  padding: 27px;
+  text-align: center;
+}
+
+#fourth .fourthtext .alt .altzero h1 {
+  color: #ffffff;
+  font-size: 35px;
+}
+
+#fourth .fourthtext .alt .altzero h3 {
+  color: #ffffff;
+  font-size: 13px;
+  margin-top: 8px;
+  letter-spacing: 0.4mm;
+  font-weight: 200;
+}
+
+#fourth .all {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#fourth .all .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 33%;
+  margin-left: 12px;
+}
+
+#fourth .all .box .left {
+  width: 30%;
+}
+
+#fourth .all .box .left img {
+  width: 100%;
+}
+
+#fourth .all .box .right {
+  margin-left: 14px;
+}
+
+#fourth .all .box .right h1 {
+  font-size: 20px;
+  letter-spacing: 0.2mm;
+}
+
+#fourth .all .box .right p {
+  margin-top: 12px;
+  font-size: 14px;
+  color: #9A9A9A;
+}
+
+#fourth .all .box .right a {
+  display: inline-block;
+  color: #14b9d5;
+  letter-spacing: 0.3mm;
+  font-size: 16px;
+  margin-top: 24px;
+}
+
+#fifth {
+  width: 200%;
+}
+
+#fifth .fifthbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+}
+
+#fifth .fifthbox h3 {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+#fifth .fifthbox h2 {
+  font-size: 24px;
+  color: #ffffff;
+  margin-top: 23px;
+}
+
+#fifth .fifthbox a {
+  display: inline-block;
+  margin-top: 24px;
+  border-radius: 38px;
+  letter-spacing: 2px;
+  line-height: 14px;
+  font-size: 14px;
+  background-color: #ffffff;
+  padding: 15px 35px;
+  color: #f3a46b;
+}
+
+#fifth .fifthbox .text {
+  background-image: url(http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/11/parallax-6-filter.jpg?id=1585);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+  padding: 86px 185px;
+  text-align: center;
+}
+
+#fifth .fifthbox .text1 {
+  background-image: url(http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/11/parallax-5-filter.jpg?id=1584);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+  padding: 86px 185px;
+  text-align: center;
+}
+
+#sixth {
+  padding: 5rem 2rem;
+}
+
+#sixth .sixthtext {
+  text-align: center;
+}
+
+#sixth .sixthtext h3 {
+  color: #9a9a9a;
+  font-size: 14px;
+  letter-spacing: 2px;
+  font-weight: normal;
+}
+
+#sixth .sixthtext h2 {
+  font-size: 36px;
+  line-height: 36px;
+  letter-spacing: 0px;
+  font-weight: bold;
+}
+
+#sixth .sixthall {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 18px;
+}
+
+#sixth .sixthall .box {
+  border: 1px solid #b3b3b3;
+  margin-left: 24px;
+  position: relative;
+}
+
+#sixth .sixthall .box .text {
+  background-color: #ff9b05;
+  border-radius: 100%;
+  height: 50px;
+  width: 50px;
+  color: #9a9a9a;
+  padding: 14px;
+  position: absolute;
+  right: 10px;
+  bottom: 207px;
+}
+
+#sixth .sixthall .box .text img {
+  width: 100%;
+}
+
+#sixth .sixthall .box img {
+  width: 100%;
+}
+
+#sixth .sixthall .sixthtext {
+  text-align: left;
+  margin-left: 13px;
+}
+
+#sixth .sixthall .sixthtext h2 {
+  font-size: 20px;
+}
+
+#sixth .sixthall .sixthtext span {
+  font-size: 15px;
+  color: #9a9a9a;
+  cursor: pointer;
+}
+
+#sixth .sixthall .sixthtext img {
+  width: 4%;
+}
+
+#sixth .sixthall .bottomfire {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 12px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#sixth .sixthall .bottomfire .left {
+  width: 25%;
+  font-weight: 200;
+  letter-spacing: 0.2mm;
+}
+
+#sixth .sixthall .bottomfinal p {
+  font-size: 14px;
+  -ms-flex-item-align: start;
+      -ms-grid-row-align: start;
+      align-self: start;
+  margin-top: 12px;
+  width: 81%;
+}
+
+#sixth .sixthall .bottomfinal a {
+  padding: 10px 20px;
+  background-color: #ffd205;
+  color: #ffffff;
+  border-radius: 30px;
+  font-size: 12px;
+  letter-spacing: 0.2mm;
+  display: inline-block;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+/*# sourceMappingURL=style.css.map */

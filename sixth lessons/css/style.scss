@@ -1,0 +1,464 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+a{
+    text-decoration: none;
+}
+#header{
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 20px 4rem;
+    position: fixed;
+    z-index: 678;
+    width: 100%;
+    .all{
+        display: flex;
+        align-items: center;
+        .left{
+            width: 15%;
+            img{
+                width: 100%;
+            }
+        }
+        .center{
+            text-align: center;
+            width: 75%;
+            a{
+                font-size: 13px;
+                text-decoration: none;
+                margin: 0 12px;
+                color: #ffffff;
+            }
+        }
+        .right{
+            text-align: right;
+            width: 10%;
+            i{
+                color: #fff;
+                font-size: 26px;  
+                cursor: pointer;
+              }
+        }
+        
+    }
+}
+
+#first{
+    background-image: url(https://cdn1.matadornetwork.com/blogs/1/2019/11/Skyscrapers-in-Baku-Azerbaijan-560x420.jpg);
+    background-position: center;
+    background-size: cover ;
+    padding: 12rem 0;
+    .first-text{
+        text-align: center;
+        h3{
+            color: #ffffff;
+            font-size: 50px;
+            font-weight: 750;
+        }
+        h4{
+            color: #ffffff;
+            font-size: 18px;
+            font-weight: 100;
+            margin-top: 20px;
+            letter-spacing: 1mm;  
+        }
+        select{
+            display: inline-block;
+            width: 25%;
+            padding: 12px 4px;
+            border-radius: 30px;
+            margin-top: 78px;
+            outline: none ;
+            cursor: pointer;
+        }
+    }
+    .all{
+        display: flex;
+        justify-content: center;
+        margin-top: 75px;
+     .box{ 
+            background-color: rgba(0, 0, 0, 0.3);
+            width: 10%;
+            text-align: center;
+            margin: 034px 12px;
+            padding: 20px;
+            img{
+                width: 40%;
+            }
+            .bottom{
+                margin-top: 12px;
+                color: #ffffff;
+                font-size: 18px;
+            
+            }
+        }
+    }
+  
+}
+
+#second{
+    padding: 5rem 4rem;
+    .second-text{
+        text-align: center;
+        margin-bottom: 56px;
+        p{
+           color:#9a9a9a ; 
+           font-size: 14px;
+        }
+        h1{
+            font-size: 36px;
+            color: #555555;
+        }
+    }
+    .second-allbox{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        .box{
+            &:hover{
+                .overlay{
+                    opacity: 1;
+                }
+            }
+            position: relative;
+            margin-bottom: 20px;
+            width: 30%;
+            img{
+                width: 100%;
+            }
+            .box-bottom{
+                position: absolute;
+                bottom: 35px;
+                left: 20px;
+            }
+            h4{
+                color: #ffffff;
+                font-size: 18px;
+                
+            }
+            p{
+                font-size: 12px;
+                color: #9a9a9a;
+                letter-spacing: 0.5mm;  
+            }
+            .box-space{
+                position: absolute;
+                top: 20px;
+                left: 20px;
+                img{
+                   width: 20%;
+                }
+            }
+            .overlay{
+                background-color: #14b9d5;
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                left: 0;
+                top: 0;
+                opacity: 0;
+                z-index: 111;
+                transition: .9s;
+                .overlay-text{
+                    text-align: center;   
+                    h2{
+                        font-size: 22px;
+                        color: #ffffff;
+                        margin-top: 56px;
+                    }     
+                    a{
+                        display: inline-block;
+                        text-decoration: none;
+                        color: #ffffff;
+                        margin-top: 12px;
+                        font-size: 14px;
+                    }           
+                }
+
+            }
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+}
+
+#third{
+    background-image: url(https://azertag.az/files/galleryphoto/2018/3/1000x669/15424515752822361134_1000x669.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 6rem;
+    .thirdtext{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        h2{
+            color: #ffffff;
+            font-size: 45px;
+        }
+        a{
+            display: inline-block;
+            text-align: right;
+            color: #f76570;
+            background-color: #ffffff;
+            padding: 14px 45px;
+            border-radius: 30px;  
+            font-size: 11px;
+            text-decoration: none;  
+            letter-spacing: 1mm;      
+        }
+    }
+}
+
+#fourth{
+    padding: 5rem 4rem;
+    .fourthtext{
+        display: flex;
+        .left{
+            width: 35%;
+            h3{
+                color: #9a9a9a;
+                font-size: 14px;
+                font-weight: 200;
+                letter-spacing: 0.43mm;
+                margin-bottom: 12px;
+            }
+            h2{
+                font-size: 37px;
+                color: #555555;
+            }
+            p{
+                color: #9a9a9a;
+                font-size: 14px;
+                padding: 23px 88px 7px 0px;
+            }
+            del{
+                font-size: 30px;
+                color: #9a9a9a;
+            }
+            span{
+                display: inline-block;
+                font-size: 30px;
+                margin-top: 24px;
+            }
+            a{
+                padding: 15px 35px;
+                background-color: #1bbc9b;
+                border-radius: 30px;
+                color: #ffffff;
+                text-decoration: none;
+                display: inline-block;
+                margin-top: 56px;
+                font-size: 14px;
+                letter-spacing: 0.7mm;
+            }
+        }
+        .right{ 
+            width: 65%;
+            position: relative;
+            img{
+                width: 100%;
+                height: 78%;
+            }
+
+        }
+        .alt{
+            display: flex;
+            position: absolute;
+            bottom: 15%;
+            left: 50%;
+            transform: translateX(-50% );
+            .altzero{
+                background-color: #14b9d5;
+                padding: 27px;  
+                text-align: center;       
+                h1{
+                    color: #ffffff;
+                    font-size: 35px;
+                }            
+                h3{
+                    color: #ffffff;
+                    font-size: 13px;
+                    margin-top: 8px;
+                    letter-spacing: 0.4mm;
+                    font-weight: 200;                    
+                }
+            }
+        }
+    }
+    .all{
+        display: flex;
+        .box{
+            display: flex;
+            width: 33%;
+            margin-left: 12px;
+            .left{
+                width: 30%;
+                img{
+                    width: 100%;
+                }
+                     
+            }
+            .right{
+                margin-left: 14px;
+                h1{
+                    font-size: 20px;
+                    letter-spacing: 0.2mm;
+                }
+                p{
+                    margin-top: 12px;
+                    font-size: 14px;
+                    color: #9A9A9A;
+                }
+                a{
+                    display: inline-block;
+                    color: #14b9d5;
+                    letter-spacing: 0.3mm;
+                    font-size: 16px;
+                    margin-top: 24px;
+                }
+            }
+        }
+    }
+}
+#fifth{
+    width: 200%;
+    .fifthbox{
+        display: flex;
+        width: 50%;
+        h3{
+            color: #ffffff;
+            font-size: 14px;
+        }
+        h2{
+            font-size: 24px;
+            color: #ffffff;
+            margin-top: 23px;
+        }
+        a{
+            display: inline-block;
+            margin-top: 24px;
+            border-radius: 38px;
+            letter-spacing: 2px;
+            line-height: 14px;
+            font-size: 14px;
+            background-color: #ffffff;
+            padding: 15px 35px;
+            color: #f3a46b;
+     }
+    .text{
+background-image: url(http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/11/parallax-6-filter.jpg?id=1585);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 50%;
+        padding: 86px 185px;
+        text-align: center;
+    }
+   .text1{
+       background-image: url(http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/11/parallax-5-filter.jpg?id=1584);
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+       width: 50%;
+       padding: 86px 185px;
+       text-align: center;  
+    }
+   }
+}
+
+#sixth{
+    padding: 5rem 2rem;
+    .sixthtext{
+        text-align: center;
+        h3{
+            color: #9a9a9a;
+            font-size: 14px;
+            letter-spacing: 2px;
+            font-weight: normal;
+        }
+        h2{
+            font-size: 36px;
+            line-height: 36px;
+            letter-spacing: 0px;
+            font-weight: bold;
+        }
+    }
+    .sixthall{
+        display: flex;
+        margin-top: 18px;
+        .box{
+            border: 1px solid rgb(179, 179, 179);
+            margin-left: 24px;
+            position: relative;
+            .text{
+                background-color: #ff9b05;
+                border-radius: 100%;
+                height: 50px;
+                width: 50px;
+                color: #9a9a9a  ;
+                padding: 14px;
+                position: absolute;
+                right: 10px;
+                bottom: 207px;
+                img{
+                    width: 100%;
+                }
+            }
+            img{
+                width: 100%;
+            }
+                                 
+        }
+        .sixthtext{   
+                text-align: left;
+                margin-left: 13px;
+                h2{
+                    font-size: 20px;
+                }
+                span{
+                    font-size: 15px;
+                    color: #9a9a9a  ;   
+                    cursor: pointer;
+                }
+            img{
+                width: 4%;
+            }
+        }
+        .bottomfire{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 12px;
+            align-items: center;
+            .left{
+                width: 25%;
+                font-weight: 200;
+                letter-spacing: 0.2mm;
+            }
+        }
+        .bottomfinal{
+            p{
+                font-size: 14px;
+                align-self: start;
+                margin-top: 12px;
+                width: 81%;
+            }
+            a{
+                padding: 10px 20px;
+                background-color: #ffd205;
+                color: #ffffff;
+                border-radius: 30px;
+                font-size: 12px;
+                letter-spacing: 0.2mm;
+                display: inline-block;
+                margin-top: 12px;
+                margin-bottom: 12px;
+            }
+        }
+    }
+}
+
